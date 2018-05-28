@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+
+	body{
+		background-color: #FFFDD0;
+		font-family: arial;
+
+	}
+
+	h4{
+		color: maroon;
+		
+		font-size: 18px;
+	}
+
+	h2{
+		font-size: 25px;
+		text-align: center;
+		
+
+	}
+		
+		#footer1{
+	font-family: Chiller;
+
+	background-color: maroon;
+	color: #FFFDD0;
+	border-radius: 6px;
+	padding: 50px;
+}
+
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+	
+	</style>
+</head>
+<body>
+
+<br>
+
+<div class="container">
+	<div>
+	<div id="menue">
+			
+		<nav class="navbar navbar-inverse navbar-fixed-top" >
+  		<div class="container-fluid" style="font-family: arial; font-size: 19px;">
+    	
+    	<div class="navbar-header">
+      	<a class="navbar-brand" href="Index.html">
+      	AH Consulting Ltd
+      	</a>
+    	</div>
+    
+    	<ul class="nav navbar-nav">
+    	<!--add class-class="active"--to make the link clickable for action-->
+      	<li><a href="#">What We Do</a></li>
+
+      	<li><a href="#">Products and Solutions</a></li>
+      	<li><a href="#">Ideas and Insights</a></li> 
+      	<li><a href="#">Career</a></li> 
+    	</ul>
+    
+    	<ul class="nav navbar-nav navbar-right">
+      	<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      	<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    	</ul>
+  		</div>
+		</nav>
+	</div>
+		
+	<div id="git" class="carousel slide" data-ride="carousel">
+			<!--data ride means that the moment you launch your web the carousel should take effect/start-->
+			<!--we are going to use ol to indicate which position an image occupies and if it slides its new position-->
+		<ol class="carousel-indicators">
+			<li data-target="#git" data-slide-to="0" class="active"></li>
+			<li data-target="#git" data-slide-to="1"></li>
+			<li data-target="#git" data-slide-to="2"></li>
+			<li data-target="#git" data-slide-to="3"></li>
+			<li data-target="#git" data-slide-to="4"></li>
+			<li data-target="#git" data-slide-to="5"></li>
+			<li data-target="#git" data-slide-to="6"></li>
+			<li data-target="#git" data-slide-to="7"></li>
+		</ol>
+			
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="AHC/DSC09399.JPG" width="100%" height="100px">
+			</div>
+		
+			<div class="item">
+				<img src="AHC/DSC09400.JPG" width="100%" height="100px">
+			</div>
+			
+			<div class="item">
+				<img src="AHC/DSC09401.JPG" width="100%" height="100px">
+			</div>
+			
+			<div class="item">
+				<img src="AHC/DSC09402.JPG" width="100%" height="100px">
+			</div>
+
+			<div class="item">
+				<img src="AHC/DSC09400.JPG" width="100%" height="100px">
+			</div>
+			
+			<div class="item">
+				<img src="AHC/DSC09401.JPG" width="100%" height="100px">
+			</div>
+			
+			<div class="item">
+				<img src="AHC/DSC09402.JPG" width="100%" height="100px">
+			</div>
+		</div>
+
+			<!--we then add glyphicons which will be used to indicate direct(mini icons)-->
+		<a href="#git" class="left carousel-control" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only"></span>
+		</a>
+
+		<a href="#git" class="right carousel-control" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only"></span>
+		</a>
+	</div>
+
+	<!--Well small--this adds a rounded border around an element with a gray background color and some padding-->
+	<div class="well well-sm" style="background-color: #FFFDD0">
+  		<h2 style="text-align: center; color: #FFFDD0; background-color: maroon; padding: 0px;">
+  			<b>AH Team</b></h2>
+
+  		<div class="panel panel-default">
+    	<div class="panel-body">
+
+    		<!--Begining of Team-->
+	
+		<!-- Team -->
+	
+        <div class="row">
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="AHC/HR.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Herbert Rwamibazi </h4>
+                                    <p class="card-text">Managing Director.</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">AH Consulting</h4>
+                                    <p class="card-text">Herbert is the Managing Director of AH Consulting, a role he took since 2004. He has over 20 years of experience in consulting work across the African continent, leading the delivery of results to clients in different organisations in varied service lines. Herbert is responsible for the overall strategic direction and delivery of the AH Consulting vision.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="AHC/AO.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Osbert Atusaasiire – Bsc. Civil Eng.</h4>
+                                    <p class="card-text">Director Business Development</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Director of Operations Engineering Services/Business Development</h4>
+                                    <p class="card-text">Osbert is a Director of Operations at AH Consulting responsible for both Engineering Services and Business Development. He has over 10 years’ experience and has been at the responsible for the establishment and growth of the engineering services in the firm.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="AHC/CK.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Cuthbert Kagabo – MBA (Oil and Gas), B.Com, ACCA, CISA</h4>
+                                    <p class="card-text">Dupty Managing Director</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Deputy Managing Director</h4>
+                                    <p class="card-text"> Cuthbert is the Deputy Managing Director of AH Consulting, a role he took since December 2011. He has over 10 years’ experience in consulting and is responsible for the overall delivery operational targets. Cuthbert previously worked with PricewaterhouseCoopers’ Assurance and Business Advisory Services where he gained experience in various sectors of the economy. Cuthbert has experience in working on projects in Uganda, Rwanda, Burundi, Sudan, Kenya, Chad, Ethiopia, UK, Ghana and South Africa.
+</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="AHC/EK.jpg"></p>
+                                    <h4 class="card-title">Edgart Katarahweire BSc. Ed, CCNA, CISA, CISM.CEO TSS</h4>
+                                    <p class="card-text">CEO - TSS</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">CEO -TSS</h4>
+                                    <p class="card-text">Edgart is the CEO of the Technology Solutions and Services. He is responsible for the strategic and operational performance of this business unit. With over 13 years of experience, he has been involved in medium to large scale IT projects across the African continent.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_05.png" alt="card image"></p>
+                                    <h4 class="card-title">Sunlimetech</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Sunlimetech</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_06.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Sunlimetech</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Sunlimetech</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+
+        </div>       
+  	</div>
+
+  </div>
+  
+  <div class="well well-sm" style="background-color: #FFFDD0">
+  	<h2 style="text-align: center; color: #FFFDD0; background-color: maroon; padding: 0px;">
+  			<b>Regional Offices</b></h2>
+  		<div class="row" id="offices"> <!--diving this row into eacg parts -- use some math -->
+		
+		<div class="col-sm-3"> <!-- Dividing the screen in three part--which is 12/4-->
+			<h4 >Uganda</h4> 
+			<p style="font-family: arial; font-size: 15px;">10 Saddler Lane, Naguru</p>
+			<p style="font-family: arial; font-size: 15px;">P.O Box 8699</p>
+			<p style="font-family: arial; font-size: 15px;">Kampala-Uganda</p>
+		</div>
+
+		
+		<div class="col-sm-3"> <!-- Dividing the screen in three part--which is 12/4-->
+			<h4 >Kenya</h4> 
+			<p style="font-family: arial; font-size: 15px; ">Rafuta Heights</p>
+			<p style="font-family: arial; font-size: 15px; ">P.O Box 00200-5489</p>
+			<p style="font-family: arial; font-size: 15px; ">Nairobi-Kenya</p>
+		</div>
+
+
+		
+		<div class="col-sm-3">
+			<h4>Ethiopa</h4> 
+			<p style="font-family: arial; font-size: 15px; ">Plot 34, Addis</p>
+			<p style="font-family: arial; font-size: 15px; ">P.O Box 900-2789</p>
+			<p style="font-family: arial; font-size: 15px; ">Addis-Ethiopia</p>
+		</div>
+
+		
+		<div class="col-sm-3"> <!-- Dividing the screen in three part--which is 12/4-->
+			<h4>Malawi</h4> 
+			<p style="font-family: arial; font-size: 15px; ">Vicson Street, Malawi</p>
+			<p style="font-family: arial; font-size: 15px; ">P.O Box 8699</p>
+			<p style="font-family: arial; font-size: 15px; ">Malawi</p>
+		</div>
+
+		
+		<div class="col-sm-3">
+			<h4>Rwandwa</h4> 
+			<p style="font-family: arial; font-size: 15px; ">Kagame Road</p>
+			<p style="font-family: arial; font-size: 15px; ">P.O Box 789</p>
+			<p style="font-family: arial; font-size: 15px; ;">Kigali-Rwandwa</p>
+		</div>
+
+	
+		<div class="col-sm-3"> <!-- Dividing the screen in three part--which is 12/4-->
+			<h4>Mauritiaus</h4> 
+			<p style="font-family: arial; font-size: 15px; ">otsong lane</p>
+			<p style="font-family: arial; font-size: 15px; ">P.O Box 678</p>
+			<p style="font-family: arial; font-size: 15px; ">Mauritiaus</p>
+		</div>
+
+		<div class="col-sm-3">
+			<h4>Rwandwa</h4> 
+			<p style="font-family: arial; font-size: 15px; ">Kagame Road</p>
+			<p style="font-family: arial; font-size: 15px; ">P.O Box 789</p>
+			<p style="font-family: arial; font-size: 15px; ;">Kigali-Rwandwa</p>
+		</div>
+
+	
+		<div class="col-sm-3"> <!-- Dividing the screen in three part--which is 12/4-->
+			<h4>Mauritiaus</h4> 
+			<p style="font-family: arial; font-size: 15px; ">otsong lane</p>
+			<p style="font-family: arial; font-size: 15px; ">P.O Box 678</p>
+			<p style="font-family: arial; font-size: 15px; ">Mauritiaus</p>
+		</div>
+
+	</div>
+</div>
+</div>
+
+  		
+  		<footer id="footer1">
+				
+			<div class="row" style="font-family: Book Antiqua; font-size: 17px;">
+			<div class="col-sm-4" align="center">
+				<h2>Quick Links</h2>				
+				<a href="#">Oppurtunities</a> <br>
+				<a href="#">Products and Solutions</a> <br>
+				<a href="#">Ideas and Insights</a> <br>
+				
+			</div>
+
+			<div class="col-sm-4" align="center">
+				<h2>Quick Links</h2>				
+				<a href="#">Consulting Tips</a> <br>
+				<a href="#">Products and Solutions</a> <br>
+				<a href="#">Ideas and Insights</a> <br>
+
+				<div >
+				<br><br>
+				Copyright &copy: 2018<br>
+				+256704670103 <br>
+				&reg; AHC
+				</div>
+
+			</div>
+
+			<div class="col-sm-4" align="center">
+			<h2>Quick Links</h2>				
+				<a href="#">Career</a> <br>
+				<a href="#">Products and Solutions</a> <br>
+				<a href="#">Ideas and Insights</a> <br>
+
+			</div>
+		</div>
+
+		</footer>
+
+			
+</div>
+
+</body>
+</html>
